@@ -1,5 +1,7 @@
 package com.testngframework;
 
-public class LoginPage {
 
+
+public class LoginPage {
+	
 }
