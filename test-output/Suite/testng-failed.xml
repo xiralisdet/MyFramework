@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <listeners>
     <listener class-name="com.testngframework.Listeners"/>
   </listeners>
@@ -19,27 +19,4 @@
       <class name="com.testngframework.HomePageNew"/>
     </classes>
   </test> <!-- Validating Home Page -->
-  <test name="Validating Title(failed)" parallel="tests">
-    <classes>
-      <class name="com.testngframework.ValidateNavigationBar">
-        <methods>
-          <include name="initilize"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.testngframework.ValidateNavigationBar -->
-      <class name="com.testngframework.ValidateTitle">
-        <methods>
-          <include name="basePageNavigation"/>
-          <include name="initilize"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.testngframework.ValidateTitle -->
-      <class name="com.testngframework.HomePageNew">
-        <methods>
-          <include name="tearDown"/>
-          <include name="initilize"/>
-        </methods>
-      </class> <!-- com.testngframework.HomePageNew -->
-    </classes>
-  </test> <!-- Validating Title(failed) -->
 </suite> <!-- Failed suite [Suite] -->
