@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="46107" started-at="2020-05-15T14:05:00Z" finished-at="2020-05-15T14:05:46Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="46107" started-at="2020-05-15T14:05:00Z" finished-at="2020-05-15T14:05:46Z">
+      <class name="com.testngframework.ValidateTitle">
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:com.testngframework.ValidateTitle@3c153a1]" name="basePageNavigation" duration-ms="124" started-at="2020-05-15T14:05:32Z" finished-at="2020-05-15T14:05:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+      </class> <!-- com.testngframework.ValidateTitle -->
+      <class name="com.testngframework.ValidateNavigationBar">
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:com.testngframework.ValidateNavigationBar@b62fe6d]" name="basePageNavigation" duration-ms="131" started-at="2020-05-15T14:05:32Z" finished-at="2020-05-15T14:05:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+      </class> <!-- com.testngframework.ValidateNavigationBar -->
+      <class name="com.testngframework.HomePageNew">
+        <test-method status="PASS" signature="initilize()[pri:0, instance:com.testngframework.HomePageNew@13acb0d1]" name="initilize" is-config="true" duration-ms="10934" started-at="2020-05-15T14:05:00Z" finished-at="2020-05-15T14:05:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method status="PASS" signature="initilize()[pri:0, instance:com.testngframework.ValidateNavigationBar@b62fe6d]" name="initilize" is-config="true" duration-ms="12391" started-at="2020-05-15T14:05:11Z" finished-at="2020-05-15T14:05:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method status="PASS" signature="initilize()[pri:0, instance:com.testngframework.ValidateTitle@3c153a1]" name="initilize" is-config="true" duration-ms="8687" started-at="2020-05-15T14:05:23Z" finished-at="2020-05-15T14:05:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testngframework.HomePageNew@13acb0d1]" name="basePageNavigation" duration-ms="8479" started-at="2020-05-15T14:05:32Z" data-provider="getData" finished-at="2020-05-15T14:05:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testngframework.HomePageNew@13acb0d1]" name="basePageNavigation" duration-ms="4987" started-at="2020-05-15T14:05:41Z" data-provider="getData" finished-at="2020-05-15T14:05:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testngframework.HomePageNew@13acb0d1]" name="tearDown" is-config="true" duration-ms="91" started-at="2020-05-15T14:05:46Z" finished-at="2020-05-15T14:05:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testngframework.ValidateNavigationBar@b62fe6d]" name="tearDown" is-config="true" duration-ms="95" started-at="2020-05-15T14:05:46Z" finished-at="2020-05-15T14:05:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testngframework.ValidateTitle@3c153a1]" name="tearDown" is-config="true" duration-ms="131" started-at="2020-05-15T14:05:46Z" finished-at="2020-05-15T14:05:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testngframework.HomePageNew -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
